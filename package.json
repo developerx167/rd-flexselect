@@ -1,6 +1,6 @@
 {
   "name": "rd-flexselect",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A simple and flexible unstyled select component library for React applications, designed to make form-building easier and more intuitive.",
   "main": "dist/index.js",
   "module": "dist/index.js",
