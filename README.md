@@ -19,8 +19,8 @@ Usage
 To use FlexSelect, simply import it and use it in your React components:
 
 
->⚠️ Warning: Best Practices for Select Components ⚠️
-Attributes such as `data-select-novalue` or `data-select-placeholder` can be used to determine whether the select element is currently displaying an empty value or a placeholder value. These attributes are helpful in designing select components to meet your specific needs. To ensure that these attributes work correctly, make sure to include the `value` and `id` attributes in selectProps. Additionally, you must provide an `id` for the label element to work properly.
+>⚠️ **Warning: Best Practices for Select Components** ⚠️
+> Attributes such as `data-select-novalue` or `data-select-placeholder` can be used to determine whether the select element is currently displaying an empty value or a placeholder value. These attributes are helpful in designing select components to meet your specific needs. To ensure that these attributes work correctly, make sure to include the `value` and `id` attributes in selectProps. Additionally, you must provide an `id` for the label element to work properly.
 
 
 
