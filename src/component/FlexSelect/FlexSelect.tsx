@@ -56,6 +56,12 @@ const FlexInput = ({
     }
   },[selectProps?.value])
 
+  useEffect(()=>{
+    if(disabledOverlayElememt || selectProps?.disabled){
+      setFocus(false);
+    }
+  },[disabledOverlayElememt,selectProps?.disabled])
+
   return (
     <div style={{position : "relative"}} className={className}>
       {beforeElement}
